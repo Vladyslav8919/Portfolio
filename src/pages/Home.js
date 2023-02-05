@@ -37,9 +37,10 @@ export default Home;
 
 const Wrapper = styled.main`
   flex: flex-auto;
-  /* background: red; */
+  /* background: white; */
   display: flex;
   padding: 0 0.5rem;
+  /* border-bottom: 1px solid #eee; */
 
   h1 {
     font-weight: 700;
