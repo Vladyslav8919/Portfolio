@@ -9,7 +9,10 @@ const Home = () => {
     <div className="content">
     <img src={mainImg} alt="logo" className="main-img" />
         <p>
-          Hello, I'm Vladyslav Pshevlotskyi, a versatile professional with a diverse background in various roles, including Frontend Trainee, Translator for a leading EdTech company in Ukraine, Sales Manager for imported cars, and Manager at a local store. Proficient in JavaScript, HTML, CSS, and React, with a solid foundation in SEO, my portfolio showcases the breadth of my experience and skills.
+          Hello, I'm Vladyslav Pshevlotskyi, a versatile professional with a diverse background in various roles, including Frontend Trainee, Translator for a leading EdTech company in Ukraine, Sales Manager for imported cars, and Manager at a local store.
+        </p>
+        <p>
+          Proficient in JavaScript, HTML, CSS, and React, with a solid foundation in SEO, my portfolio showcases the breadth of my experience and skills.
         </p>
     </div>
       </div>
@@ -36,7 +39,7 @@ const Wrapper = styled.main`
 
   img {
     float: left;
-    max-width: 20%;
+    max-width: 32%;
     margin-right: 2rem;
   }
 
