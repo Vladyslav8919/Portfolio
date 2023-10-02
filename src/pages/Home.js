@@ -42,7 +42,7 @@ const Wrapper = styled.main`
   img {
     float: left;
     max-width: 39%;
-    margin: 0.5rem 0 2rem 2rem;
+    margin: 0.5rem 0 1rem 2rem;
   }
 
   q {
