@@ -41,7 +41,7 @@ const Wrapper = styled.main`
 
   img {
     float: left;
-    max-width: 32%;
+    max-width: 39%;
     margin-right: 2rem;
   }
 
