@@ -7,11 +7,10 @@ const Home = () => {
       <div className="container">
         <h1>Vladyslav Pshevlotskyi</h1>
         <p>
-          Hey, my name is Vladyslav and I'm a highly motivated and passionate
-          developer (with a clear focus on React), who is eager to learn.
+          Hello, I'm Vladyslav Pshevlotskyi, a versatile professional with a diverse background in various roles, including Frontend Trainee, Translator for a leading EdTech company in Ukraine, Sales Manager for imported cars, and Manager at a local store. Proficient in JavaScript, HTML, CSS, and React, with a solid foundation in SEO, my portfolio showcases the breadth of my experience and skills.
         </p>
         <img src={mainImg} alt="logo" className="main-img" />
-        <p>
+        /*<p>
           <q>No doubt quality is costly but lack of quality is more costly</q>,
           – that is why, I primarily focus on writing clean, elegant, and
           efficient code.
@@ -23,7 +22,7 @@ const Home = () => {
         <p>
           I am seeking opportunities to create modern and unique websites and I
           will do my best to provide you with good results.
-        </p>
+        </p>*/
         {/* <p>
           <strong>My scope of knowledge covers:</strong>  HTML, CSS, Sass,
           JavaScript, React, Redux, Redux Toolkit, Git, Babel, Parcel, Tailwind,
