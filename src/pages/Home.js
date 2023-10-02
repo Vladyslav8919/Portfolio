@@ -8,12 +8,14 @@ const Home = () => {
         <h1>Vladyslav Pshevlotskyi</h1>
     <div className="content">
     <img src={mainImg} alt="logo" className="main-img" />
+    <div>
         <p>
           Hello, I'm Vladyslav Pshevlotskyi, a versatile professional with a diverse background in various roles, including Frontend Trainee, Translator for a leading EdTech company in Ukraine, Sales Manager for imported cars, and Manager at a local store.
         </p>
         <p>
           Proficient in JavaScript, HTML, CSS, and React, with a solid foundation in SEO, my portfolio showcases the breadth of my experience and skills.
         </p>
+    </div>
     </div>
       </div>
     </Wrapper>
