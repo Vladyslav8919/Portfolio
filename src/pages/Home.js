@@ -7,7 +7,6 @@ const Home = () => {
       <div className="container">
         <h1>Vladyslav Pshevlotskyi</h1>
     <div className="content">
-    <img src={mainImg} alt="logo" className="main-img" />
     <div>
         <p>
           Hello, I'm Vladyslav Pshevlotskyi, a versatile professional with a diverse background in various roles, including Frontend Trainee, Translator for a leading EdTech company in Ukraine, Sales Manager for imported cars, and Manager at a local store.
@@ -16,6 +15,7 @@ const Home = () => {
           Proficient in JavaScript, HTML, CSS, and React, with a solid foundation in SEO, my portfolio showcases the breadth of my experience and skills.
         </p>
     </div>
+    <img src={mainImg} alt="logo" className="main-img" />
     </div>
       </div>
     </Wrapper>
@@ -42,7 +42,7 @@ const Wrapper = styled.main`
   img {
     float: left;
     max-width: 39%;
-    margin-right: 2rem;
+    margin: 0.5rem 0 2rem 2rem;
   }
 
   q {
