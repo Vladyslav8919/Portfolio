@@ -6,10 +6,12 @@ const Home = () => {
     <Wrapper>
       <div className="container">
         <h1>Vladyslav Pshevlotskyi</h1>
+    <div className="content">
+    <img src={mainImg} alt="logo" className="main-img" />
         <p>
           Hello, I'm Vladyslav Pshevlotskyi, a versatile professional with a diverse background in various roles, including Frontend Trainee, Translator for a leading EdTech company in Ukraine, Sales Manager for imported cars, and Manager at a local store. Proficient in JavaScript, HTML, CSS, and React, with a solid foundation in SEO, my portfolio showcases the breadth of my experience and skills.
         </p>
-        <img src={mainImg} alt="logo" className="main-img" />
+    </div>
       </div>
     </Wrapper>
   );
@@ -41,6 +43,10 @@ const Wrapper = styled.main`
   q {
     font-style: italic;
     /* font-weight: 500; */
+  }
+
+  .content {
+  display: flex;
   }
 
   .skill {
