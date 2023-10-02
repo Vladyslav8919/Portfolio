@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import mainImg from '../assets/images/main-img.jpg';
+import mainImg from '../assets/images/main-img.webp';
 
 const Home = () => {
   return (
