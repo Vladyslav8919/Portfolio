@@ -18,9 +18,7 @@ const SharedLayout = () => {
           <SocialLinks />
         </div>
       ) : (
-        <div className="footer">
           <SocialLinks />
-        </div>
       )}
     </Wrapper>
   );
